@@ -1,14 +1,13 @@
 
 body {
-    margin: 0 auto;
+    margin: 1px;
 }
 
 section.top-page {
-    background: url('../images/visuals_2480x520.jpg');
-    background-size: cover;
-    height: 80vh;
-    
-
+    background: url('../images/visuals_2480x520.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 124px;
 }
 
 /* Language button */
