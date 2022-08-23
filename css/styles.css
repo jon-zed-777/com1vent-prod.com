@@ -1,7 +1,9 @@
 
 body {
-    margin: 1px;
+    margin: 0 auto;
 }
+
+/* Top-page */
 
 section.top-page {
     background: url('../images/visuals_2480x520.png');
@@ -11,3 +13,11 @@ section.top-page {
 }
 
 /* Language button */
+
+
+
+/* Partners */
+
+section.partners {
+
+}
