@@ -12,12 +12,26 @@ section.top-page {
     padding: 124px;
 }
 
+/* h1 & h2 */
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
 /* Language button */
 
-
+section.top-page header {
+    text-align: right;
+}
 
 /* Partners */
 
-section.partners {
-
+section.partners figure img{
+    width: 400px;
+    display: block;
+    margin: auto;
 }
