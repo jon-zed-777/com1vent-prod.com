@@ -14,12 +14,12 @@ section.top-page {
 
 /* h1 & h2 */
 
-h1 {
+h1, h2 {
     text-align: center;
 }
 
-h2 {
-    text-align: center;
+#en_cours_de_construction {
+    color: red;
 }
 
 /* Language button */
@@ -30,8 +30,18 @@ section.top-page header {
 
 /* Partners */
 
-section.partners figure img{
+section.partners figure img {
     width: 400px;
     display: block;
     margin: auto;
+}
+
+#nos_partenaires {
+    color: rgb(112, 112, 117);
+}
+
+/* Downloads */
+
+#Telechargements {
+    color: limegreen;
 }
