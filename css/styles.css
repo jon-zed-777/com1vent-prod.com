@@ -1,5 +1,6 @@
 
 body {
+    background-color: white;
     margin: 0 auto;
 }
 
@@ -16,6 +17,14 @@ section.top-page {
 
 h1, h2 {
     text-align: center;
+    border: 5px black solid;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px grey;
+    text-shadow: 3px 3px 10px grey;
+}
+
+h1 {
+    font-style: oblique;
 }
 
 #en_cours_de_construction {
@@ -28,12 +37,30 @@ section.top-page header {
     text-align: right;
 }
 
+/* Quick links */
+
+section.quick_links h2 {
+    font-family: Impact, 'Arial Black', Arial, Verdana, sans-serif;
+    color: darkblue;
+    font-size: 1.27em;
+    font-style: normal;
+    text-decoration: underline;
+    float: left;
+}
+
+.quick_links_list {
+    display: block;
+    margin: auto;
+    width: 150px;
+    background-color: silver;
+}
+
 /* Partners */
 
 section.partners figure img {
-    width: 400px;
     display: block;
     margin: auto;
+    width: 400px;
 }
 
 #nos_partenaires {
