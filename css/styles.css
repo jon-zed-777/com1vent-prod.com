@@ -4,13 +4,21 @@ body {
     margin: 0 auto;
 }
 
-/* Top-page */
+/* Header (language button included) */
 
-section.top-page {
+.header {
     background: url('../images/visuals_2480x520.png');
     background-size: 100%;
     background-repeat: no-repeat;
     padding: 124px;
+}
+
+.language_button {
+    float: right;
+}
+
+.language_button-label {
+    color: red;
 }
 
 /* h1 & h2 */
@@ -31,15 +39,9 @@ h1 {
     color: red;
 }
 
-/* Language button */
-
-section.top-page header {
-    text-align: right;
-}
-
 /* Quick links */
 
-section.quick_links h2 {
+.quick_links h2 {
     font-family: Impact, 'Arial Black', Arial, Verdana, sans-serif;
     color: darkblue;
     font-size: 1.27em;
