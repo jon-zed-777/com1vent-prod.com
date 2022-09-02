@@ -69,6 +69,11 @@ section.partners figure img {
     color: rgb(112, 112, 117);
 }
 
+.partners_list {
+    display: flex;
+    justify-content: space-around;
+}
+
 /* Downloads */
 
 #Telechargements {
